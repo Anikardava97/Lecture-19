@@ -18,12 +18,14 @@ class MoviesDetails {
     var image = UIImage()
     let title: String
     let genre: MovieGenre
+    let rating: Double
     
-    init(title: String, image: UIImage, genre: MovieGenre) {
+    init(title: String, image: UIImage, genre: MovieGenre, rating: Double) {
         self.image = image
         self.title = title
         self.genre = genre
+        self.rating = rating
     }
 }
 
-                    
+
